@@ -3,6 +3,7 @@
     public class Configuration
     {
         public ConnectionStrings ConnectionStrings { get; set; }
+        public string ChatGPTApiKey { get; set; }
     }
 
     public class ConnectionStrings

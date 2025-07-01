@@ -6,8 +6,8 @@ namespace GLTest.Core.Domains.Products
     {
         public Guid ProductId { get; private set; }
         public string ProductName { get; private set; }
-        public Guid? CategoryId { get; private set; }
-        public Category? Category { get; private set; }
+        public Guid CategoryId { get; set; }
+        public Category Category { get; set; }
 
         protected Product() { }
 
@@ -24,4 +24,6 @@ namespace GLTest.Core.Domains.Products
             CategoryId = categoryId;
         }
     }
+
+    public class ProductCategory { }
 }
