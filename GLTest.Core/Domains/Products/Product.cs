@@ -24,6 +24,4 @@ namespace GLTest.Core.Domains.Products
             CategoryId = categoryId;
         }
     }
-
-    public class ProductCategory { }
 }
